@@ -1,0 +1,50 @@
+{
+  "name": "rollup-async-await-sample",
+  "description": "Rollup sample with async/await",
+  "version": "0.0.1",
+  "author": {
+    "name": "fiahfy",
+    "email": "d.fiahfy@gmail.com",
+    "url": "http://fiahfy.blogspot.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/fiahfy/rollup-async-await-sample/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/runtime": "^7.1.2",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.4.2",
+    "eslint": "^5.5.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "jest": "^23.5.0",
+    "prettier": "^1.14.3",
+    "rollup": "^0.66.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.1.8",
+    "rollup-plugin-node-resolve": "^3.4.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/fiahfy/rollup-async-await-sample",
+  "keywords": [],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiahfy/rollup-async-await-sample.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "lint": "eslint -f codeframe --ignore-path .gitignore .",
+    "prepare": "npm run test && npm run build",
+    "test": "npm run lint && jest"
+  },
+  "unpkg": "dist/index.umd.js"
+}
