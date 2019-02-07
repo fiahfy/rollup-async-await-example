@@ -23,10 +23,10 @@ export default [
     ],
     external: [],
     plugins: [
-      resolve(),
-      commonjs(),
+      resolve(), // remove this line if supported node 8 higher only
+      commonjs(), // remove this line if supported node 8 higher only
       babel({
-        runtimeHelpers: true,
+        runtimeHelpers: true, // remove this line if supported node 8 higher only
         exclude: 'node_modules/**'
       })
     ]

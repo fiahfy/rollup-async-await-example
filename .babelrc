@@ -2,3 +2,16 @@
   "presets": ["@babel/env"],
   "plugins": ["@babel/transform-runtime"]
 }
+// supported node 8 higher only
+// {
+//   "presets": [
+//     [
+//       "@babel/env",
+//       {
+//         "targets": {
+//           "node": 8
+//         }
+//       }
+//     ]
+//   ]
+// }
