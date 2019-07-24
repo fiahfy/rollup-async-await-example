@@ -1,8 +1,8 @@
-import sample from '../src'
+import example from '../src'
 
-describe('sample', () => {
+describe('example', () => {
   test('should work', async () => {
-    const result = await sample()
+    const result = await example()
     expect(result).toBe('OK')
   })
 })

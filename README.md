@@ -1,14 +1,14 @@
-# rollup-async-await-sample
+# rollup-async-await-example
 
-> Rollup sample with async/await.
+> Rollup example with async/await.
 
 ## Installation
 ```
-npm install rollup-async-await-sample
+npm install rollup-async-await-example
 ```
 
 ## Usage
 ```js
-import 'rollup-async-await-sample'
+import 'rollup-async-await-example'
 //
 ```

@@ -18,7 +18,7 @@ export default [
       {
         file: pkg.unpkg,
         format: 'umd',
-        name: 'sample'
+        name: 'example'
       }
     ],
     external: [],
